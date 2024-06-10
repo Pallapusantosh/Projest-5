@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>contectPage</title>  
+        <style>
+             h1{
+            text-align:center;
+            text-shadow: 10px 5px 10px red;
+            }
+            h3{
+            text-align:center;
+            }
+            .container {
+                margin: 0 auto;
+                background: hsl(271, 94%, 37%);
+                box-sizing: border-box;
+                width: 350px;
+                    padding: 5px 10px;
+             }
+            
+               /* Smartphones (portait and landscape )----------  */
+             
+            @media screen and (min-width: 767px)  {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                    background-color: crimson;
+                }
+                        }
+
+            /* tablets , iPads (portait and landscape )----------  */
+             
+         @media screen and (min-width: 768px) and (max-width: 1024px)  {
+               
+            .container {
+                    width: 350px;
+                    padding: 5px 10px;
+                    background-color: rgb(20, 220, 97);
+                }
+            }
+
+
+          /* Low resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1024px)  {
+            .container {
+                    width: 350px;
+                    padding: 5px 15px;
+                    background-color: rgb(220, 207, 20);
+                }
+            }
+      
+          /* High  resolution Desktops and laptops ----------  */
+             
+          @media screen and (min-width: 1280px)  {
+            .container {
+                    width: 350px;
+                    padding: 5px 20px;
+                    background-color: rgb(202, 200, 77);
+                }
+            }
+            div {
+                background-color:rgb(23, 255, 81) ;
+                color:rgb(226, 43, 43)
+            }
+            body{
+                margin-left: 80px;
+                margin-top: 25px;
+                
+            }
+          
+        </style>      
+    </head>
+    <body background="c:\Users\LabUser\Pictures\Screenshots\Screenshot (18).png"></body>
+    
+    <body>
+        <h2><a href="Ex11-HTML-CSS-Website.html">Home</a></h2>
+    </body>
+    <body>
+        <h1>*CONTACT US*</h1> 
+        <form action="success.html">
+            <div class="container">
+           <h3> User name:<input type="text" name="uname" placeholder="Enter YourName"> <br>
+           Email : <input type="email" name="name" placeholder="Enter YourEmail"> <br>
+           Message:<br>
+           <textarea name="mytest" cols="20" row="30">
+         </textarea><br>
+        <input type="submit">
+    </h3>
+            </div>
+        </form>
+    </body>
+</html>

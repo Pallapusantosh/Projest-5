@@ -1,0 +1,65 @@
+<html>
+   <head>
+         <title>JavaScript functions </title>
+         <style>
+            body{
+               margin-left: 75px;
+               margin-top: 80px;
+               
+            }
+            h2{
+               color: blue;
+            }
+             input{
+               height: 23px;
+               border-radius: 5px;
+               background-color: greenyellow;
+             }
+           
+            div {
+                color:rgb(29, 12, 12);
+                background-color: rgba(172, 175, 175, 0.575);
+                width: 350px;
+                    padding: 30px;
+                    border:  1px solid rgb(143,25,12);
+                    border-radius: 10px;
+                    position: center;
+            }
+         </style>
+      </head>      
+      <script>
+         // User Validations
+ function loginValidation() {
+             // Ramesh
+   var uname = document.myform.username.value;
+              //Ramesh@123
+   var password = document.myform.password.value;
+             if(uname==null || uname=="") {
+               alert("Name cant be blank")
+               return false;  
+            } else if (password.length<6){
+               alert("Password Must be 6 letters")
+               return false;
+            }  
+
+            return true                 
+         }           
+      </script>
+      </head>
+      <body>
+        <h2> <a href="Ex11-HTML-CSS-Website.html">Home</a></body></h2>
+         <body>
+     <center>
+         <div class="container">
+          <h2>*Login Page*</h2>
+            <form name="myform" action="success.html" 	onsubmit="return loginValidation(this)">
+<h3>User Name : <input type="text" name="username" placeholder="Enter YourName"> <br><br>
+Password :  <input type="password" name="password" placeholder="Enter Password"> <br><br>
+         <input type="submit" value="Submit">     
+      </h3>
+        </form>
+      </div>
+     </center> 
+   </body>
+   <body background="Screenshot (12).png"></body>
+</html>
